@@ -12,7 +12,7 @@ app.run(host='0.0.0.0', debug=True)
 
 
 @app.route('/shop')
-def render_shop_page():
+def shop():
     return render_template('shop.html')
 
 

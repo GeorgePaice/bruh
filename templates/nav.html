@@ -1,8 +1,9 @@
 <a href="/">home</a> &#8226;
 <a href="/menu">menu</a> &#8226;
 <a href="/shop">contact</a> &#8226;
-{% if logged_in %}
+<form method="get" action="/shop">
+    <button class="button button2">shop</button>
+</form>
 <a href="/logout">log out</a>
-{% else %}
+
 <a href="/login">log in</a>
-{% endif %}
