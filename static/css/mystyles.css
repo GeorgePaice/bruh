@@ -8,6 +8,17 @@ h1{
   font-size: 40px;
 }
 
+h2{
+  text-align: left;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+p{
+  text-align: left;
+  color: #ffffff;
+  font-size: 15px;
+}
 .center {
 
 
@@ -33,7 +44,7 @@ li {
 }
 
 li {
-  float: right;
+  float: left;
 }
 li a {
   display: block;
