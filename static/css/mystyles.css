@@ -28,10 +28,6 @@ ul {
 }
 
 li {
-  float: right;
-}
-
-li {
   float: left;
 }
 li a {
