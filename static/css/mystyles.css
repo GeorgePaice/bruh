@@ -2,6 +2,16 @@ body{
   background-color: rgba(50, 50, 65, 1);
 }
 
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
 h1{
   text-align: center;
   color: #009933;
@@ -39,12 +49,17 @@ li a {
 }
 
 li a:hover {
-  background-color: #009933;
+  background-color: #008933;
 }
 
 
 .button {
-  background-color: #009933;
+   position: absolute;
+  top: 50%;
+  left: 50%;
+   transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #008933;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -59,9 +74,10 @@ li a:hover {
 }
 
 .button2 {
-  background-color:rgba(50, 50, 65, 1);
+
+  background: url('/static/images/capture.jpg');
   border: none;
-  color: #009933;
+  color: #009d33;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -105,13 +121,13 @@ li a:hover {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #009933;
+  background-color: #008933;
 }
 
 .dropdown-content a {
   float: none;
   color: white;
-  background-color: rgba(50, 50, 65, 1);
+  background-color: rgb(50, 50, 65);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -126,7 +142,7 @@ li a:hover {
   z-index: 1;
 }
 .dropdown-content a:hover {
-  background-color:#009933 ;
+  background-color:#008933 ;
 }
 
 .dropdown:hover .dropdown-content {
