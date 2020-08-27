@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="SQLite - click.db" uuid="ca44f169-661f-42af-b360-e26638ee2956">
+    <data-source source="LOCAL" name="clicks.db" uuid="7a04731e-2d7f-42ea-9457-32accd79d83d">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\16099\PycharmProjects\web-app-GeorgePaice\clicks.db</jdbc-url>
     </data-source>
   </component>
 </project>

@@ -13,6 +13,21 @@ def login():
     return render_template('login.html')
 
 
+@app.route('/fans')
+def fans():
+    return render_template('fans.html')
+
+
+@app.route('/lights')
+def lights():
+    return render_template('lights.html')
+
+
+@app.route('/switches')
+def switches():
+    return render_template('switches.html')
+
+
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
@@ -21,11 +36,6 @@ def contact():
 @app.route('/about')
 def about():
     return render_template('about.html')
-
-
-@app.route('/shop')
-def shop():
-    return render_template('shop.html')
 
 
 app.run(host='0.0.0.0', debug=True)
