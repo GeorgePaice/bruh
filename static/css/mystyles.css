@@ -12,6 +12,10 @@ body{
   height: auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 h1{
   text-align: center;
   color: #009933;
@@ -147,6 +151,58 @@ li a:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.product-box img {
+    max-width:200px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-box {
+    /*width: 13vw;*/
+    width: 32%;
+    /*float: left;*/
+    /*display: table-cell;*/
+    /*padding: 0.5rem;*/
+    /*margin: 1vw;*/
+    background-color: inherit;
+    color: #009933;
+    margin-bottom: 0.5rem;
+}
+
+.product-box-heading {
+    padding: 0.5rem;
+}
+
+.product-box-image {
+    height: 150px;
+    overflow: hidden;
+}
+
+.product-box-info {
+    padding: 0.5rem;
+
+}
+
+.product-box h3 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.product-box p {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.product-box a {
+    border: 1px solid tomato;
+    padding: 0.3rem;
+    text-align: right;
 }
 
 .button3 {

@@ -4,4 +4,16 @@
 
 {% block main %}
 <h2>switches</h2>
+<div class="products">
+{% for product in products %}
+<div class="product-box">
+    <h3>{{ product[1] }}</h3>
+    <p>{{ product[2] }} </p>
+    <p><strong>Quantity: </strong>{{ product[3] }}</p>
+    <p><strong>Price: </strong>${{ product[5] }}</p>
+    <img src="static/images/{{ product[4] }}.jpg">
+    <a href="{{ product[7] }}">{{ product[1] }}</a>
+</div>
+{% endfor %}
+</div>
 {% endblock %}
