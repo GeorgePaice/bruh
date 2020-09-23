@@ -8,10 +8,11 @@
 {% for product in products %}
 <div class="product-box">
     <h3>{{ product[1] }}</h3>
+    <img src="static/images/fans/{{ product[4] }}.jpg">
     <p>{{ product[2] }} </p>
     <p><strong>Quantity: </strong>{{ product[3] }}</p>
     <p><strong>Price: </strong>${{ product[5] }}</p>
-    <img src="static/images/{{ product[4] }}.jpg">
+    <a href="{{ product[6] }}" target="_blank" >shop {{ product[1] }}</a>
 </div>
 {% endfor %}
 </div>
